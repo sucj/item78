@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "item78",
+  "version": "${version}",
+  "name": "item78",
+  "description": "",
+  "authors": [ "557" ],
+  "contact": {},
+  "license": "GPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "icu.suc.item78.Item78"
+      }
+    ]
+  },
+  "mixins": [
+    "item78.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader}",
+    "fabric": "*",
+    "minecraft": "${minecraft}",
+    "fabric-language-kotlin": ">=${kotlin}",
+    "fabric-permissions-api-v0": "*",
+    "serverevents": ">=${serverevents}"
+  }
+}
