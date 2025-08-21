@@ -1,8 +1,8 @@
 package icu.suc.item78.mixin;
 
 import com.llamalad7.mixinextras.sugar.Local;
-import icu.suc.item78.HasSoulBoundItems;
-import icu.suc.item78.ItemUtils;
+import icu.suc.item78.enchantment.HasSoulBoundItems;
+import icu.suc.item78.util.ItemUtils;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import org.jetbrains.annotations.NotNull;

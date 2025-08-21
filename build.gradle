@@ -7,7 +7,7 @@ plugins {
     alias libs.plugins.kotlin
 }
 
-version = "2025.8.1"
+version = "2025.8.2"
 group = "icu.suc"
 
 base {
@@ -22,6 +22,8 @@ loom {
             sourceSet sourceSets.main
         }
     }
+
+    accessWidenerPath.set(file("src/main/resources/item78.accesswidener"))
 }
 
 

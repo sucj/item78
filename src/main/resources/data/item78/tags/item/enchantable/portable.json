@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:stonecutter",
+    "minecraft:cartography_table",
+    "minecraft:smithing_table",
+    "minecraft:grindstone",
+    "minecraft:loom",
+    "minecraft:anvil",
+    "minecraft:chipped_anvil",
+    "minecraft:damaged_anvil",
+    "minecraft:ender_chest"
+  ]
+}

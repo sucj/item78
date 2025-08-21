@@ -8,6 +8,7 @@
   "contact": {},
   "license": "GPL-3.0",
   "environment": "*",
+  "accessWidener": "item78.accesswidener",
   "entrypoints": {
     "main": [
       {

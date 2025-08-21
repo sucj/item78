@@ -1,0 +1,11 @@
+accessWidener v2 named
+accessible field net/minecraft/world/level/block/StonecutterBlock CONTAINER_TITLE Lnet/minecraft/network/chat/Component;
+accessible field net/minecraft/world/level/block/CartographyTableBlock CONTAINER_TITLE Lnet/minecraft/network/chat/Component;
+accessible field net/minecraft/world/level/block/SmithingTableBlock CONTAINER_TITLE Lnet/minecraft/network/chat/Component;
+accessible field net/minecraft/world/level/block/GrindstoneBlock CONTAINER_TITLE Lnet/minecraft/network/chat/Component;
+accessible field net/minecraft/world/level/block/LoomBlock CONTAINER_TITLE Lnet/minecraft/network/chat/Component;
+accessible field net/minecraft/world/level/block/AnvilBlock CONTAINER_TITLE Lnet/minecraft/network/chat/Component;
+accessible field net/minecraft/world/level/block/EnderChestBlock CONTAINER_TITLE Lnet/minecraft/network/chat/Component;
+accessible field net/minecraft/world/level/block/entity/EnderChestBlockEntity openersCounter Lnet/minecraft/world/level/block/entity/ContainerOpenersCounter;
+accessible method net/minecraft/world/level/block/entity/ContainerOpenersCounter onOpen (Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V
+accessible method net/minecraft/world/level/block/entity/ContainerOpenersCounter onClose (Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V

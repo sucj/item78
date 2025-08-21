@@ -1,4 +1,4 @@
-package icu.suc.item78
+package icu.suc.item78.enchantment
 
 import net.minecraft.world.item.ItemStack
 

@@ -1,6 +1,6 @@
 package icu.suc.item78.mixin;
 
-import icu.suc.item78.HasSoulBoundItems;
+import icu.suc.item78.enchantment.HasSoulBoundItems;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.level.GameRules;

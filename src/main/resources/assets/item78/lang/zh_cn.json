@@ -1,3 +1,6 @@
 {
-  "enchantment.item78.soul_bound": "灵魂绑定"
+  "item.item78.portable_ender_chest": "便携末影箱",
+  "enchantment.item78.soul_bound": "灵魂绑定",
+  "enchantment.item78.portable": "便携",
+  "tag.item.item78.enchantable.portable": "便携"
 }

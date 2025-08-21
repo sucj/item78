@@ -1,3 +1,6 @@
 {
-  "enchantment.item78.soul_bound": "Soul Bound"
+  "item.item78.portable_ender_chest": "Portable Ender Chest",
+  "enchantment.item78.soul_bound": "Soul Bound",
+  "enchantment.item78.portable": "Portable",
+  "tag.item.item78.enchantable.portable": "Portable"
 }

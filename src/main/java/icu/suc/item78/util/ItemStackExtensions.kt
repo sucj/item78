@@ -1,7 +1,8 @@
 @file:JvmName("ItemUtils")
 
-package icu.suc.item78
+package icu.suc.item78.util
 
+import icu.suc.item78.Item78
 import it.unimi.dsi.fastutil.objects.ReferenceSortedSets
 import net.minecraft.core.Holder
 import net.minecraft.core.RegistryAccess
@@ -83,7 +84,7 @@ fun ItemStack.getEnchantment(key: ResourceKey<Enchantment>): Int {
             return it.intValue
         }
     }
-    return -1
+    return 0
 }
 
 fun ItemStack.addEnchantment(registry: RegistryAccess, key: ResourceKey<Enchantment>, level: Int): ItemStack =
@@ -95,7 +96,7 @@ fun ItemStack.addEnchantment(registry: RegistryAccess, key: ResourceKey<Enchantm
     }
 
 fun ItemStack.isSoulBound(): Boolean =
-    !isEmpty && getEnchantment(Item78.Enchantments.SOUL_BOUND) != -1
+    getEnchantment(Item78.Enchantments.SOUL_BOUND) > 0
 
 fun ItemStack.withUnbreakable(unbreakable: Boolean): ItemStack =
     apply { setDataComponent(DataComponents.UNBREAKABLE, if (unbreakable) net.minecraft.util.Unit.INSTANCE else null) }
