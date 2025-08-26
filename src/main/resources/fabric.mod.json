@@ -3,9 +3,12 @@
   "id": "item78",
   "version": "${version}",
   "name": "item78",
-  "description": "",
+  "description": "Items for project78.",
   "authors": [ "557" ],
-  "contact": {},
+  "contact": {
+    "sources": "https://github.com/sucj/item78",
+    "issues": "https://github.com/sucj/item78/issues"
+  },
   "license": "GPL-3.0",
   "environment": "*",
   "accessWidener": "item78.accesswidener",
